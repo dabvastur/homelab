@@ -57,42 +57,42 @@ app-template:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &jellyfinHost jellyfin.dabvastur-lab.com
+        - host: &jellyfinHost jellyfin.dabvastur-lab.site
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: http
-        - host: &transmissionHost transmission.dabvastur-lab.com
+        - host: &transmissionHost transmission.dabvastur-lab.site
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: transmission
-        - host: &prowlarrHost prowlarr.dabvastur-lab.com
+        - host: &prowlarrHost prowlarr.dabvastur-lab.site
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: prowlarr
-        - host: &radarrHost radarr.dabvastur-lab.com
+        - host: &radarrHost radarr.dabvastur-lab.site
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: radarr
-        - host: &sonarrHost sonarr.dabvastur-lab.com
+        - host: &sonarrHost sonarr.dabvastur-lab.site
           paths:
             - path: /
               pathType: Prefix
               service:
                 name: main
                 port: sonarr
-        - host: &jellyseerrHost jellyseerr.dabvastur-lab.com
+        - host: &jellyseerrHost jellyseerr.dabvastur-lab.site
           paths:
             - path: /
               pathType: Prefix

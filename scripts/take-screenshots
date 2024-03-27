@@ -15,23 +15,23 @@ from selenium import webdriver
 apps = [
     {
         'name': 'home',
-        'url': 'https://home.dabvastur-lab.com'
+        'url': 'https://home.dabvastur-lab.site'
     },
     {
         'name': 'gitea',
-        'url': 'https://git.dabvastur-lab.com/ops/homelab'
+        'url': 'https://git.dabvastur-lab.site/ops/homelab'
     },
     {
         'name': 'argocd',
-        'url': 'https://argocd.dabvastur-lab.com/applications/root'
+        'url': 'https://argocd.dabvastur-lab.site/applications/root'
     },
     {
         'name': 'matrix',
-        'url': 'https://chat.dabvastur-lab.com/#/room/#random:matrix.dabvastur-lab.com'
+        'url': 'https://chat.dabvastur-lab.site/#/room/#random:matrix.dabvastur-lab.site'
     },
     {
         'name': 'grafana',
-        'url': 'https://grafana.dabvastur-lab.com/d/efa86fd1d0c121a26444b636a3f509a8/kubernetes-compute-resources-cluster'  # wtf is this ID
+        'url': 'https://grafana.dabvastur-lab.site/d/efa86fd1d0c121a26444b636a3f509a8/kubernetes-compute-resources-cluster'  # wtf is this ID
     },
 ]
 

@@ -1,4 +1,4 @@
-module git.dabvastur-lab.com/khuedoan/homelab/platform/secret-generator
+module git.dabvastur-lab.site/khuedoan/homelab/platform/secret-generator
 
 go 1.19
 

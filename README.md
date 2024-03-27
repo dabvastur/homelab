@@ -1,9 +1,9 @@
 # Khue's Homelab
 
-**[Features](#features) • [Get Started](#get-started) • [Documentation](https://homelab.dabvastur-lab.com)**
+**[Features](#features) • [Get Started](#get-started) • [Documentation](https://homelab.dabvastur-lab.site)**
 
 [![tag](https://img.shields.io/github/v/tag/khuedoan/homelab?style=flat-square&logo=semver&logoColor=white)](https://github.com/khuedoan/homelab/tags)
-[![document](https://img.shields.io/website?label=document&logo=gitbook&logoColor=white&style=flat-square&url=https%3A%2F%2Fhomelab.dabvastur-lab.com)](https://homelab.dabvastur-lab.com)
+[![document](https://img.shields.io/website?label=document&logo=gitbook&logoColor=white&style=flat-square&url=https%3A%2F%2Fhomelab.dabvastur-lab.site)](https://homelab.dabvastur-lab.site)
 [![license](https://img.shields.io/github/license/khuedoan/homelab?style=flat-square&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![stars](https://img.shields.io/github/stars/khuedoan/homelab?logo=github&logoColor=white&color=gold&style=flat-square)](https://github.com/khuedoan/homelab)
 
@@ -220,25 +220,25 @@ They can't capture all the project's features, but they are sufficient to get a 
 
 ## Get Started
 
-- [Try it out locally](https://homelab.dabvastur-lab.com/installation/sandbox) without any hardware (just 4 commands!)
-- [Deploy on real hardware](https://homelab.dabvastur-lab.com/installation/production/prerequisites) for production workload
+- [Try it out locally](https://homelab.dabvastur-lab.site/installation/sandbox) without any hardware (just 4 commands!)
+- [Deploy on real hardware](https://homelab.dabvastur-lab.site/installation/production/prerequisites) for production workload
 
 ## Roadmap
 
-See [roadmap](https://homelab.dabvastur-lab.com/reference/roadmap) and [open issues](https://github.com/khuedoan/homelab/issues) for a list of proposed features and known issues.
+See [roadmap](https://homelab.dabvastur-lab.site/reference/roadmap) and [open issues](https://github.com/khuedoan/homelab/issues) for a list of proposed features and known issues.
 
 ## Contributing
 
 Any contributions you make are greatly appreciated.
 
-Please see [contributing guide](https://homelab.dabvastur-lab.com/reference/contributing) for more information.
+Please see [contributing guide](https://homelab.dabvastur-lab.site/reference/contributing) for more information.
 
 ## License
 
 Copyright &copy; 2020 - 2024 Khue Doan
 
 Distributed under the GPLv3 License.
-See [license page](https://homelab.dabvastur-lab.com/reference/license) or `LICENSE.md` file for more information.
+See [license page](https://homelab.dabvastur-lab.site/reference/license) or `LICENSE.md` file for more information.
 
 ## Acknowledgements
 

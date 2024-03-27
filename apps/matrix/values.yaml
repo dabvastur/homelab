@@ -4,10 +4,10 @@ elementweb:
     className: nginx
     annotations:
       cert-manager.io/cluster-issuer: letsencrypt-prod
-      external-dns.alpha.kubernetes.io/target: "homelab-tunnel.dabvastur-lab.com"
+      external-dns.alpha.kubernetes.io/target: "homelab-tunnel.dabvastur-lab.site"
       external-dns.alpha.kubernetes.io/cloudflare-proxied: "true"
     hosts:
-      - host: &frontend_host chat.dabvastur-lab.com
+      - host: &frontend_host chat.dabvastur-lab.site
         paths:
           - path: /
             pathType: Prefix
@@ -17,22 +17,22 @@ elementweb:
           - *frontend_host
   config:
     default:
-      base_url: https://matrix.dabvastur-lab.com
-      server_name: dabvastur-lab.com
+      base_url: https://matrix.dabvastur-lab.site
+      server_name: dabvastur-lab.site
 
 dendrite:
   dendrite_config:
     global:
-      server_name: matrix.dabvastur-lab.com
+      server_name: matrix.dabvastur-lab.site
   ingress:
     enabled: true
     className: nginx
     annotations:
       cert-manager.io/cluster-issuer: letsencrypt-prod
-    hostName: matrix.dabvastur-lab.com
+    hostName: matrix.dabvastur-lab.site
     tls:
       - hosts:
-          - matrix.dabvastur-lab.com
+          - matrix.dabvastur-lab.site
         secretName: matrix-tls-certificate
   postgresql:
     enabled: true

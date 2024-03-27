@@ -6,7 +6,7 @@ zot:
       nginx.ingress.kubernetes.io/proxy-body-size: "0"
     className: nginx
     hosts:
-      - host: &host registry.dabvastur-lab.com
+      - host: &host registry.dabvastur-lab.site
         paths:
           - path: /
     tls:

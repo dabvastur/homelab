@@ -31,7 +31,7 @@ make configure
     ```
     Text editor (nvim):
     Enter seed repo (github.com/khuedoan/homelab): github.com/example/homelab
-    Enter your domain (dabvastur-lab.com): example.com
+    Enter your domain (dabvastur-lab.site): example.com
     ```
 
 It will prompt you to edit the inventory:

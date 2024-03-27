@@ -1,4 +1,4 @@
-module git.dabvastur-lab.com/ops/homelab
+module git.dabvastur-lab.site/ops/homelab
 
 go 1.21
 
